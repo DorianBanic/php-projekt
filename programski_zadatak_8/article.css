@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    height: 900px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #0047ab;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+time {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+figure img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 10px;
+}
+
+figure figcaption {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.content p {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.article-footer .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.article-footer .navigation a {
+    color: #0047ab;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.article-footer .navigation a:hover {
+    color: #002d73;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-icons {
+    margin: 10px 0;
+}
+
+footer .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+}
+
+footer .social-icons img {
+    width: 32px;
+    height: 32px;
+}
+
+footer .social-icons a:hover {
+    transform: scale(1.1);
+}
+
+footer .github-link a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+footer .github-link img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+footer .github-link a:hover {
+    color: #ccc;
+}
